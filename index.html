@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form class="border-radius" action="">
+        <h1 class="title">Gerador de Border Radius</h1>
+        <div class="radius">
+            <input data-max class="top" type="range" min="0" max="100" value="0">
+            <input data-max class="left" type="range" min="0" max="100" value="0">
+            <input data-max class="rigth" type="range" min="0" max="100" value="0">
+            <input data-max class="bottom" type="range" min="0" max="100" value="0">
+        </div>
+        <div class="row">
+            <input class="info" type="text" value="border-radius: 0% 0% 0% 0%" readonly>
+            <button class="btn">Copy</button>
+        </div>
+        <div class="flex">
+            <input class="width" data-valor="200" min="0" maxlength="3" type="number" placeholder="width">
+            <input class="height" data-valor="200" min="0" maxlength="3" type="number" placeholder="height">
+            <select class="box" name="" id="">
+                <option value="%">%</option>
+                <option value="px">px</option>
+            </select>
+        </div>
+
+        <div class="credits">
+            <p>Feito por <span>Rey Hall</span>, Border Radius 2.0</p>
+        </div>
+
+    </form>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
